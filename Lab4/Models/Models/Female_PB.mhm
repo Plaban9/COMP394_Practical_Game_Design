@@ -1,0 +1,29 @@
+# Written by MakeHuman 1.2.1 alpha
+version v1.2.1
+name Female_PB
+camera 357.0 351.5 -0.21690719865175903 0.20215065423818995 -0.10266989739645364 1.0625
+modifier breast/BreastSize 0.500000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Gender 0.000000
+modifier macrodetails/Age 0.671000
+modifier macrodetails/African 0.281386
+modifier macrodetails/Asian 0.269614
+modifier macrodetails/Caucasian 0.449000
+modifier macrodetails-universal/Muscle 0.841000
+modifier macrodetails-universal/Weight 0.754000
+modifier macrodetails-height/Height 0.783000
+modifier macrodetails-proportions/BodyProportions 0.500000
+proxy female1605 e7cb8171-845e-42b0-a109-e6e8c8a61f9d
+hair long01 6c6b0bb1-3608-40b8-9108-4bfd8fa71e39
+eyelashes eyelashes02 04a0718e-aaa4-4480-a013-ad51703bef6b
+skeleton game_engine.mhskel
+eyebrows eyebrow001 9c81ec3a-faa5-4c94-9cdb-992300ba3084
+eyes HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6
+clothes female_elegantsuit01 8bb26477-c09f-4439-b05f-961516acf662
+clothesHideFaces True
+skinMaterial skins/young_caucasian_female/young_caucasian_female.mhmat
+material long01 6c6b0bb1-3608-40b8-9108-4bfd8fa71e39 long01.mhmat
+material HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6 eyes/materials/brown.mhmat
+material eyebrow001 9c81ec3a-faa5-4c94-9cdb-992300ba3084 eyebrow001.mhmat
+material eyelashes02 04a0718e-aaa4-4480-a013-ad51703bef6b eyelashes02.mhmat
+subdivide True

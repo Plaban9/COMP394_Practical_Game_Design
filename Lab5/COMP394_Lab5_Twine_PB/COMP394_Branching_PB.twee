@@ -1,0 +1,106 @@
+:: StoryTitle
+Branching Story
+
+
+:: StoryData
+{
+  "ifid": "67C4EA67-C72B-45A4-929E-2C3BB8BAFDF6",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "The Enchanted Forest",
+  "zoom": 1
+}
+
+
+:: \ Avoid Conflict {"position":"725,750","size":"100,100"}
+You decide to avoid conflict and sneak past the orcs, using your wits to stay hidden.
+
+
+:: \ Use the Spell {"position":"625,800","size":"100,100"}
+You use your new fire spell to fend off the orcs and protect yourself.
+
+
+:: Accept the Nymph’s Gift {"position":"225,425","size":"100,100"}
+You accept the nymph’s gift and put on the magical amulet. As you continue your journey, you come across a hidden underwater cave
+
+''(text-colour:red)[Choice:]''
+[[Explore the Cave]]
+[[Continue Along the Stream]]
+
+
+:: Ask for Guidance {"position":"775,475","size":"100,100"}
+You ask the wizard for guidance on your quest, hoping he can provide valuable information.
+
+''(text-colour:red)[Choice:]''
+[[Seek the Temple]]
+[[Continue Your Own Path]]
+
+
+:: Continue Along the Stream {"position":"225,625","size":"100,100"}
+You decide to continue along the stream, leaving the cave unexplored.
+
+
+:: Continue Your Own Path {"position":"775,975","size":"100,100"}
+You thank the wizard for his advice but decide to continue on your own path, exploring the forest further.
+
+
+
+:: Decline the Nymph’s Gift {"position":"500,475","size":"100,100"}
+You decline the nymph’s gift and continue your journey. As you walk along the stream, you encounter a group of forest elves who seem to be in distress.
+
+''(text-colour:red)[Choice:]''
+[[Help the Elves]]
+[[Ignore the Elves]]
+
+
+
+:: Explore the Cave {"position":"75,600","size":"100,100"}
+You dive into the stream and explore the underwater cave, discovering a hidden treasure.
+
+
+:: Help the Elves {"position":"375,650","size":"100,100"}
+You offer to help the elves with their problem, gaining their trust and friendship.
+
+
+:: Ignore the Elves {"position":"550,650","size":"100,100"}
+You decide to ignore the elves and continue your journey, focusing on your own quest.
+
+
+:: Learn a Spell {"position":"650,475","size":"100,100"}
+The wizard offers to teach you a powerful spell that can control fire.
+
+''(text-colour:red)[Choice:]''
+[[ Use the Spell]]
+[[ Avoid Conflict]]
+
+
+
+:: Seek the Temple {"position":"900,850","size":"100,100"}
+You decide to seek out the hidden temple, hoping to find the powerful artifact.
+
+
+
+:: The Enchanted Forest {"position":"525,225","size":"100,100"}
+You are an adventurer in the mystical land of Eldoria. One day, you receive a mysterious letter inviting you to explore the Enchanted Forest, a place filled with ancient magic and hidden secrets. As you enter the forest, you come to a fork in the path.
+
+
+''(text-colour:red)[Chose your Path:]''
+
+[[The Left Path]] 
+[[The Right Path]]
+
+
+:: The Left Path {"position":"375,350","size":"100,100"}
+The left path is overgrown with vines and seems less traveled. You hear the faint sound of water flowing in the distance.
+
+''(text-colour:red)[Choice:]''
+[[Accept the Nymph’s Gift]]
+[[Decline the Nymph’s Gift]]
+
+
+:: The Right Path {"position":"650,350","size":"100,100"}
+You choose the right path. The glowing mushrooms light your way until you reach a clearing where a wise old wizard is meditating. He opens his eyes and offers you a choice:
+
+''(text-colour:red)[Choice:]''
+[[Learn a Spell]]
+[[Ask for Guidance]]

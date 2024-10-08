@@ -1,0 +1,41 @@
+:: StoryTitle
+Linear Story
+
+
+:: StoryData
+{
+  "ifid": "8C86B671-92B7-4E55-A678-00E16260576A",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Part 1: The Mysterious Map",
+  "zoom": 1
+}
+
+
+:: Part 1: The Mysterious Map {"position":"75,50","size":"100,100"}
+In the bustling city of Neverwinter, a group of adventurers—Lia the elven ranger, Thorne the human fighter, Zara the tiefling sorcerer, and Bronn the dwarven cleric—stumble upon an ancient map in a dusty old shop. The map promises to lead them to the lost treasure of the Dragon’s Hoard, hidden deep within the treacherous Whispering Woods.
+
+[[Part 2: The Whispering Woods]]
+
+
+:: Part 2: The Whispering Woods {"position":"75,175","size":"100,100"}
+The adventurers set out on their journey, entering the eerie Whispering Woods. The trees seem to whisper secrets and warnings, and the path is fraught with dangers. They encounter a band of goblins, but with their combined skills, they manage to defeat them and continue their quest.
+
+[[Part 3: The Guardian of the Hoard]]
+
+
+:: Part 3: The Guardian of the Hoard {"position":"75,300","size":"100,100"}
+Deep within the woods, they find a hidden cave marked on the map. Inside, they face the Guardian of the Hoard—a fearsome dragon named Valthorax. The dragon challenges them, testing their courage and strength. After a fierce battle, they manage to outwit and defeat Valthorax, who reveals the location of the treasure as he takes his last breath.
+[[Part 4: The Hidden Treasure]]
+
+
+
+:: Part 4: The Hidden Treasure {"position":"75,425","size":"100,100"}
+Following the dragon’s directions, the adventurers discover a hidden chamber filled with gold, jewels, and ancient artifacts. Among the treasures, they find a magical amulet that grants immense power to its wearer. They decide to take only what they can carry and leave the rest, knowing that greed could lead to their downfall.
+[[Part 5: The Return to Neverwinter]]
+
+
+:: Part 5: The Return to Neverwinter {"position":"75,550","size":"100,100"}
+The adventurers return to Neverwinter as heroes, their names celebrated throughout the city. They use their newfound wealth to help those in need and continue their adventures, always seeking new challenges and mysteries to solve. The magical amulet remains a symbol of their bravery and the bond they share.
+
+THE END

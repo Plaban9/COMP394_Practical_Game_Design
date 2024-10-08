@@ -1,0 +1,27 @@
+# Written by MakeHuman 1.2.1 alpha
+version v1.2.1
+name Male_PB
+camera 357.0 351.5 -0.21690719865175903 0.20215065423818995 -0.10266989739645364 1.0625
+modifier breast/BreastSize 0.500000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Gender 1.000000
+modifier macrodetails/Age 0.638000
+modifier macrodetails/African 0.047592
+modifier macrodetails/Asian 0.816000
+modifier macrodetails/Caucasian 0.136408
+modifier macrodetails-universal/Muscle 0.744000
+modifier macrodetails-universal/Weight 0.662000
+modifier macrodetails-height/Height 0.638000
+modifier macrodetails-proportions/BodyProportions 0.500000
+proxy male_muscle_13290 79e967dc-3f7a-4f2d-851e-4f06753ed571
+hair short02 c104cd4a-1edc-43f9-8b94-f63345a44638
+skeleton game_engine.mhskel
+eyebrows eyebrow012 1c16325c-7831-4166-831a-05c5b609c219
+eyes HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6
+clothes male_casualsuit04 402c35f6-0cf4-4d22-af5b-0cc58fb2b617
+clothesHideFaces True
+skinMaterial skins/young_asian_male/young_asian_male.mhmat
+material short02 c104cd4a-1edc-43f9-8b94-f63345a44638 short02.mhmat
+material HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6 eyes/materials/brown.mhmat
+material eyebrow012 1c16325c-7831-4166-831a-05c5b609c219 eyebrow012.mhmat
+subdivide False

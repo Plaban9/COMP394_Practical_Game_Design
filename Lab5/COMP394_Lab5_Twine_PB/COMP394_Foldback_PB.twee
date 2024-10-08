@@ -1,0 +1,140 @@
+:: StoryTitle
+Foldback Stories
+
+
+:: StoryData
+{
+  "ifid": "67C4EA67-C72B-45A4-929E-2C3BB8BAFDF5",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Accept Dwarf Help {"position":"700,250","size":"100,100"}
+You accept the dwarf's help and continue your journey together.
+
+[[Convergence 1->Convergence 1]]
+
+
+:: Accept Potion {"position":"1075,125","size":"100,100"}
+You accept the potion and continue your journey.
+
+[[Convergence 1->Convergence 1]]
+
+
+:: Avoid Elves {"position":"1325,125","size":"100,100"}
+You decide to avoid the elves and continue deeper into the forest. As you walk, you stumble upon an ancient, abandoned temple. Inside, you find clues that point to the Crystal of Light being taken to the Dragonspine Mountains.
+
+* [[Investigate the Temple->Investigate Temple]]
+* [[Head to the Mountains->Head to Mountains]]
+
+
+:: Befriend Elves {"position":"950,125","size":"100,100"}
+You approach the elves and explain your quest. They are initially suspicious but warm up to you after you help them fend off a group of marauding goblins. Grateful, they offer you a magical potion that will aid you in your journey.
+
+* [[Accept the Potion->Accept Potion]]
+* [[Decline the Potion->Decline Potion]]
+
+
+:: Convergence 1 {"position":"1325,250","size":"100,100"}
+No matter which path you took, you eventually find yourself in the hidden chamber where the Crystal of Light is kept. As you reach for the crystal, a powerful guardian appears, challenging you to prove your worth.
+
+* [[Defeat the Guardian->Defeat Guardian]]
+* [[Negotiate with the Guardian->Negotiate Guardian]]
+
+
+:: Convergence 2 {"position":"1700,250","size":"100,100"}
+After dealing with the guardian, you retrieve the Crystal of Light. You return to the capital city of Eldoria as a hero, and the king rewards you handsomely for your bravery. The kingdom is safe once more, thanks to your courage and determination.
+
+The End.
+
+
+:: Decline Dwarf Help {"position":"825,250","size":"100,100"}
+You decline the dwarf's help and continue on your own.
+
+[[Convergence 1->Convergence 1]]
+
+
+:: Decline Potion {"position":"1200,125","size":"100,100"}
+You politely decline the potion and continue on your way.
+
+[[Convergence 1->Convergence 1]]
+
+
+:: Defeat Guardian {"position":"1450,250","size":"100,100"}
+You must use all your skills and the allies you have made along the way to defeat the guardian and reclaim the Crystal of Light.
+
+[[Convergence 2->Convergence 2]]
+
+
+:: Forest Path {"position":"825,125","size":"100,100"}
+You choose the forest path and venture into the Whispering Woods. The trees seem to whisper secrets, and the air is thick with magic. As you walk, you encounter a group of forest elves who seem wary of your presence.
+
+* [[Befriend the Elves->Befriend Elves]]
+* [[Avoid the Elves->Avoid Elves]]
+
+
+:: Fork {"position":"700,125","size":"100,100"}
+You leave the capital city and soon come to a fork in the road.
+
+* [[The Forest Path->Forest Path]]
+* [[The Mountain Path->Mountain Path]]
+
+
+:: Head to Mountains {"position":"1575,125","size":"100,100"}
+You choose to head directly to the Dragonspine Mountains.
+
+[[Convergence 1->Convergence 1]]
+
+
+:: Investigate Further {"position":"1200,250","size":"100,100"}
+You choose to investigate the chamber further before taking the crystal.
+
+[[Convergence 2->Convergence 2]]
+
+
+:: Investigate Temple {"position":"1450,125","size":"100,100"}
+You decide to investigate the temple further.
+
+[[Convergence 1->Convergence 1]]
+
+
+:: Mountain Path {"position":"1700,125","size":"100,100"}
+You choose the mountain path and begin your ascent into the Dragonspine Mountains. The air grows colder, and the path becomes more treacherous. You come across a cave entrance guarded by a fierce-looking dwarf.
+
+* [[Talk to the Dwarf->Talk Dwarf]]
+* [[Sneak Past the Dwarf->Sneak Past Dwarf]]
+
+
+:: Negotiate Guardian {"position":"1575,250","size":"100,100"}
+You decide to negotiate with the guardian, using your wit and charm to convince it to let you take the Crystal of Light.
+
+[[Convergence 2->Convergence 2]]
+
+
+:: Sneak Past Dwarf {"position":"950,250","size":"100,100"}
+You decide to sneak past the dwarf and enter the cave. Inside, you find a network of tunnels that seem to lead deeper into the mountains. You follow the tunnels and eventually find a hidden chamber where the Crystal of Light is being kept.
+
+* [[Take the Crystal->Take Crystal]]
+* [[Investigate Further->Investigate Further]]
+
+
+:: Start {"position":"575,125","size":"100,100"}
+In the kingdom of Eldoria, a powerful artifact known as the Crystal of Light has been stolen from the royal vault. The king has called upon brave adventurers to retrieve it. You, a seasoned adventurer, accept the quest and set out on your journey.
+
+[[The Fork in the Road->Fork]]
+
+
+:: Take Crystal {"position":"1075,250","size":"100,100"}
+You decide to take the Crystal of Light and make your escape.
+
+[[Convergence 2->Convergence 2]]
+
+
+:: Talk Dwarf {"position":"575,250","size":"100,100"}
+You approach the dwarf and explain your quest. He is impressed by your bravery and offers to guide you through the mountains in exchange for a share of the treasure.
+
+* [[Accept the Dwarf's Help->Accept Dwarf Help]]
+* [[Decline the Dwarf's Help->Decline Dwarf Help]]
