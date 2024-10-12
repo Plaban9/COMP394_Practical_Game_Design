@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MakeshiftAudioSingleton : MonoBehaviour
 {
@@ -26,5 +27,15 @@ public class MakeshiftAudioSingleton : MonoBehaviour
     void Update()
     {
 
+    }
+
+    public void ChangeScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
