@@ -3330,7 +3330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _totalPickups: 5
   _currentPickups: 0
-  _maxTimer: 5
+  _maxTimer: 200
   _timerText: {fileID: 1879057792}
   _pickupText: {fileID: 556705352}
   _loseScreen: {fileID: 1713249732}
