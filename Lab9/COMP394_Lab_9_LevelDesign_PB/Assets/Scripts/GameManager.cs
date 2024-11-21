@@ -12,6 +12,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text _timerText;
     [SerializeField] private Text _pickupText;
 
+    [SerializeField] private GameObject _loseScreen;
+    [SerializeField] private GameObject _winScreen;
+
     Timer _timer;
 
     public static GameManager Instance
@@ -22,6 +25,9 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         _currentPickups = 0;
+
+        _winScreen.SetActive(false);
+        _loseScreen.SetActive(false);
 
         _timer = new Timer(_maxTimer);
         _timer.StartTimer();
@@ -41,7 +47,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
     public void IncrementPickups()
     {
         _currentPickups += 1;
@@ -57,15 +62,20 @@ public class GameManager : MonoBehaviour
     {
         if (_timer.HAS_ENDED)
         {
+            _timer.PauseTimer();
             LoseCondition();
             return;
         }
 
         Debug.Log("You Won!!");
+
+        _winScreen.SetActive(true);
     }
 
     private void LoseCondition()
     {
         Debug.Log("You Lose!!");
+
+        _loseScreen.SetActive(true);
     }
 }
