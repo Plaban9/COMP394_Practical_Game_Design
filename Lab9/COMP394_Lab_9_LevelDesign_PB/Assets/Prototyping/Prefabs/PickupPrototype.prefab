@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 6400000}
+  - component: {fileID: 4414502706448661845}
   m_Layer: 0
   m_Name: PickupPrototype
   m_TagString: Untagged
@@ -106,3 +107,54 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 959be6347b65b7a4c9baa6bc323541fd, type: 3}
+--- !u!114 &4414502706448661845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c0bb871bd30fa46ae9057583088043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movementDurationPerRound: 10
+  _useLocomotionModuloFunction_X: 0
+  _displacement_X: 3.5
+  _useLocomotionModuloFunction_Y: 0
+  _displacement_Y: 1
+  _useLocomotionModuloFunction_Z: 0
+  _displacement_Z: 3.5
+  _movementDimension: 2
+  _movementFunction_X: 0
+  _movementFunction_Y: 0
+  _movementFunction_Z: 0
+  _initialPosition: {x: 2.1763828, y: 3.25, z: 16.78092}
+  _movementElapsedTime: 90.72156
+  _scaleDurationPerRound: 1
+  _useScaleModuloFunction_X: 0
+  _scale_X: 5
+  _useScaleModuloFunction_Y: 0
+  _scale_Y: 5
+  _useScaleModuloFunction_Z: 0
+  _scale_Z: 5
+  _scaleDimension: 0
+  _scaleFunction_X: 0
+  _scaleFunction_Y: 0
+  _scaleFunction_Z: 0
+  _initialScale: {x: 1, y: 1, z: 1}
+  _scaleElapsedTime: 90.72156
+  _rotationDurationPerRound: 161
+  _useRotationModuloFunction_X: 0
+  _rotation_X: 5
+  _useRotationModuloFunction_Y: 0
+  _rotation_Y: 1912.8
+  _useRotationModuloFunction_Z: 0
+  _rotation_Z: 5
+  _rotationDimension: 2
+  _rotationFunction_X: 0
+  _rotationFunction_Y: 0
+  _rotationFunction_Z: 0
+  _initialRotation: {x: -0, y: 0, z: 0}
+  _rotationElapsedTime: 90.72156
