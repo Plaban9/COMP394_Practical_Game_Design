@@ -1,0 +1,131 @@
+title Random Robots
+author Plaban - [Extended with some elements from increpare]
+homepage www.puzzlescript.net
+
+========
+OBJECTS
+========
+
+Background (special, automatically placed in its own layer)
+green darkgreen
+11111
+01111
+11101
+11111
+10111
+
+Player (Required by game)
+pink
+..0..
+00000
+..0..
+.000.
+.0.0.
+
+Robot
+gray black red
+.000.
+.200.
+...0.
+00000
+01010
+
+Wall
+brown
+00000
+00000
+00000
+00000
+00000
+
+Goal
+white black red
+00000
+01110
+01210
+01110
+00000
+=======
+LEGEND
+=======
+
+. = Background
+P = Player
+* = Robot
+W = Wall
+G = Goal
+
+=========
+SOUNDS
+=========
+
+================
+COLLISIONLAYERS
+================
+
+Background
+Goal
+Player, Robot, Wall
+
+======
+RULES
+======
+
+[ stationary Robot ] -> [ randomDir Robot ] 
+
+==============
+WINCONDITIONS
+==============
+
+All Player on Goal
+
+=======
+LEVELS
+=======
+
+...........
+.....*.....
+...........
+.....*.....
+...........
+.....*.....
+..P........
+.....*.....
+..........G
+
+
+
+..........W
+.....*....W
+........W..
+.....*..W..
+........W..
+.....*.W...
+..P....W...
+.....*.W...
+..........G
+
+
+
+.WWWW.....W
+.....*....W
+.W......W..
+.W...*..W..
+.W......W..
+.W...*.W...
+....W..W...
+.....*.W...
+PW.W......G
+
+
+
+
+.WWWW.....W
+.....*....W
+.W.W....W..
+.W.W.*..W..
+.W.W.G..W..
+.W.W.*WW...
+....W..W...
+.....*.W...
+PW.W.......
